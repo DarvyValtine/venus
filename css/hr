@@ -1,0 +1,48 @@
+.heading-orders
+ {
+   min-height: 80vh; /* Augmenter la hauteur minimale pour un effet plus immersif */
+   display: flex;
+   flex-direction: column; /* "flex-flow" peut être remplacé par "flex-direction" */
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   text-align: center;
+   background:url(../images/img5.jpg) no-repeat center; /* Ajout d'un dégradé */
+   background-size: cover;
+   transition: all 0.5s ease; /* Pour des transitions douces */
+}
+
+.heading-orders
+:hover {
+   transform: scale(1.05); /* Petit zoom pour un effet de survol */
+}
+
+.heading-orders
+ h5 {
+   font-size: 19px; /* Légère réduction pour un look plus moderne */
+   color: var(--light-color); /* Couleur claire pour le texte */
+   text-transform: uppercase;
+   transition: color 0.3s ease; /* Transition sur la couleur */
+}
+
+.heading-orders
+ h5:hover {
+   color: var(--purple); /* Couleur différente au survol */
+}
+
+.heading-orders
+ p {
+   font-size: 2rem; /* Réduction légère de la taille de police */
+   color: var(--light-color);
+}
+
+.heading-orders
+ p a {
+   color: var(--purple); 
+   transition: text-decoration 0.3s ease; /* Transition pour l'effet de soulèvement */
+}
+
+.heading-orders
+ p a:hover {
+   text-decoration: underline;
+}
